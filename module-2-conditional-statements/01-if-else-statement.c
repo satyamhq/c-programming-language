@@ -1,3 +1,15 @@
+/*
+ * Program 01: Even or Odd Number
+ * Description: Check if a number is even or odd using if-else statement.
+ *              Demonstrates the basic if-else conditional structure.
+ * 
+ * Concepts Covered:
+ * - if-else statement
+ * - Modulus operator (%)
+ * - scanf() for input
+ * - Conditional checking
+ */
+
 #include <stdio.h>
 
 int main() {
