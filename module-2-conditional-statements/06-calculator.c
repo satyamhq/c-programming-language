@@ -8,7 +8,7 @@ int main() {
     scanf("%d %d", &num1, &num2);
 
     printf("Enter operator (+, -, *, /): ");
-    scanf(" %c", &op);   // space before %c is important
+    scanf(" %c", &op);  
 
     switch (op) {
         case '+':
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+
