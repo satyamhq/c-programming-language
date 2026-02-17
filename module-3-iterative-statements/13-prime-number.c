@@ -24,5 +24,5 @@ int main() {
         printf("Prime number");
     }
 
-    return 0;
+    return 0;   // return sends a value back from a function and stops the function.
 }
