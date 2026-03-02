@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long long factorial(int n) {
+void factorial(int n) {
     long long fact = 1;
     int i;
 
@@ -8,7 +8,7 @@ long long factorial(int n) {
         fact = fact * i;
     }
 
-    return fact;
+    printf("Factorial = %lld\n", fact);
 }
 
 int main() {
@@ -17,7 +17,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    printf("Factorial = %lld", factorial(num));
+    factorial(num);   // function call
 
     return 0;
 }
