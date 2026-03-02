@@ -1,23 +1,29 @@
 #include <stdio.h>
 
-void factorial(int n) {
-    long long fact = 1;
+// function returning factorial
+int fact(int n)
+{
     int i;
+    int f = 1;
 
-    for(i = 1; i <= n; i++) {
-        fact = fact * i;
+    for(i = 1; i <= n; i++)
+    {
+        f = f * i;
     }
 
-    printf("Factorial = %lld\n", fact);
+    return f;   // returning value
 }
 
-int main() {
-    int num;
+int main()
+{
+    int num, result;
 
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    factorial(num);   // function call
+    result = fact(num);   // function call
+
+    printf("Factorial of %d is %d", num, result);
 
     return 0;
 }
