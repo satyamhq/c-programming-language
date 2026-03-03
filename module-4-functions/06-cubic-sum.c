@@ -5,7 +5,8 @@ int cubic_sum(int n) {
     int d, s = 0;
 
     if (n < 0) {
-        return "Invalid";
+        printf("Invalid number\n");
+        return -1;
     }
 
     while (n != 0) {
