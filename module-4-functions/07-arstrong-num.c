@@ -6,7 +6,7 @@ int armstrong(int n) {
     if (n < 0) {
         printf("Invalid number\n");
         return -1;
-    }
+    } 
 
     temp = n;
 
