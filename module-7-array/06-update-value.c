@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int arr[5] = {5, 11, 20, 19, 30};
+    int arr[6] = {10, 34, 3, 5, 18, 26};
     int index, value;
 
     printf("Enter index to update: ");
@@ -13,7 +13,7 @@ int main() {
     arr[index] = value;
 
     printf("Updated array:\n");
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < 6; i++) {
         printf("%d ", arr[i]);
     }
 
