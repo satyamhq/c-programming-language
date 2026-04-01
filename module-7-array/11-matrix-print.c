@@ -5,14 +5,12 @@ int main() {
 
     printf("%d", mat[1][0]);
 
-    printf("The array: \n");
+    printf("\nThe array: \n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             printf("%d ", mat[i][j]);
         }
         printf("\n");
     }
-
-
 }
 // column size is mandatory in 2D array declaration because the compiler needs it to calculate the memory location of elements.
