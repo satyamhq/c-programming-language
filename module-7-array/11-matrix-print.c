@@ -3,7 +3,7 @@
 int main() {
     int mat[2][2] = {{5, 10}, {40, 70}};
 
-    printf("%d", mat[1][0]);
+    printf("%d", mat[1][0]); // Accessing element at row 1 and column 0
 
     printf("\nThe array: \n");
     for (int i = 0; i < 2; i++) {
