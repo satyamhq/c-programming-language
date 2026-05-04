@@ -13,4 +13,4 @@ int main(){
     mycar.price = 50000.0;
     printf("%s %d %f", mycar.name, mycar.seats, mycar.price);
     return 0;
-}   
+}
