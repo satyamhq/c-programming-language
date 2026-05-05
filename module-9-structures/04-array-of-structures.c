@@ -19,9 +19,9 @@ int main(){
         printf("Enter CGPA: \n");
         scanf("%f", &s1[i].cgpa);
     }
-
+    printf("Name | Registration Number | CGPA\n");
     for(int i = 0; i < 3; i++){
-        printf("%s %d %.2f\n", s1[i].name, s1[i].reg, s1[i].cgpa);
+        printf("%s | %d | %.2f\n", s1[i].name, s1[i].reg, s1[i].cgpa);
     }
     return 0;
 }
