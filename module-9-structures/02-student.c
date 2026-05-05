@@ -7,13 +7,13 @@ struct student{
 };
 
 int main(){
-    struct student college;
+    struct student s1;
 
-    college.name = "Satyam";
-    college.reg = 125057000;
-    college.cgpa = 8.00;
+    s1.name = "Satyam";
+    s1.reg = 125057000;
+    s1.cgpa = 8.00;
 
-    printf("%s %d %f", college.name, college.reg, college.cgpa);
+    printf("%s %d %.2f", s1.name, s1.reg, s1.cgpa);
     
     return 0;    
 }
